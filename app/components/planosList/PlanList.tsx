@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
 
 export default function PlanList() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -128,9 +129,9 @@ export default function PlanList() {
         <button
           onClick={() => scroll("left")}
           aria-label="Scroll Left"
-          className="absolute left-0 top-1/2 -translate-y-1/2 z-20 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 transition"
+          className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-[#fff] shadow-[#ccc] cursor-pointer h-20 w-9 rounded-md shadow-lg hover:bg-gray-100 transition flex items-center justify-center"
         >
-          ◀️
+          <FaAngleLeft />
         </button>
       )}
 
@@ -273,9 +274,9 @@ export default function PlanList() {
         <button
           onClick={() => scroll("right")}
           aria-label="Scroll Right"
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-20 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 transition"
+          className="absolute right-0 top-1/2 -translate-y-1/2 z-20 bg-white shadow-[#ccc] cursor-pointer h-20 w-9 rounded-md shadow-lg p-2  hover:bg-gray-100 transition"
         >
-          ▶️
+          <FaAngleRight />
         </button>
       )}
     </div>

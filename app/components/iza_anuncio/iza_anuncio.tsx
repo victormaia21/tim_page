@@ -107,7 +107,7 @@ function IzaAnuncio() {
             </div>
 
             {/* 3 div divida na informação tim controle a imagem da iza e as informações do plano na esquerda sendo a ultima */}
-            <div className="hidden xl:block w-8/10 m-auto -translate-y-2 relative">
+            <div className="hidden xl:block w-[1294px] m-auto -translate-y-2 relative">
                 {/* CLasse pai das 3 divs */}
                 <div className="flex gap-1">
                     {/* Novo tim controle, informações basicas 5g e etc... */}
@@ -169,8 +169,8 @@ function IzaAnuncio() {
                     </div>
 
                     {/* Informações do plano e quantidade de internet */}
-                    <div className="w-1/4">
-                        <div className="relative w-[22em] bg-[#151ce0] z-20  border-solid border-[2px] border-[#07cdf0] m-auto p-4 flex flex-col gap-3 rounded-2xl shadow-lg shadow-[rgba(255,255,255,.1)]">
+                    <div className="w-1/4 flex items-end">
+                        <div className="relative w-[19em] bg-[#151ce0] z-20  border-solid border-[2px] border-[#07cdf0] m-auto p-4 flex flex-col gap-3 rounded-2xl shadow-lg shadow-[rgba(255,255,255,.1)]">
                             <h4 className="text-white text-[.75em] text-center font-bold">VOCÊ PODE TROCAR SUA ASSINATURA TODO MÊS</h4>
                             <div className="flex items-center text-3xl justify-evenly text-white">
                                 <Image 
@@ -240,7 +240,7 @@ function IzaAnuncio() {
                                             <span className="text-6xl">35</span><span className="text-4xl">GB</span>
                                         </h1>
                                     </div>
-                                    <div className="border-l-[2px] border-l-[#07cdf0] border-solid pl-3 pt-2 pb-2">
+                                    <div className="border-l-[2px] border-l-[#07cdf0] ml-2 border-solid pl-3 pt-2 pb-2">
                                         <div
                                             className=
                                             "bg-[#eb0129] pl-5 pr-5 m-auto text-white items-center rounded-2xl pt-4"
