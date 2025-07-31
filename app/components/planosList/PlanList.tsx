@@ -192,7 +192,7 @@ export default function PlanList() {
                 <div className="h-36 flex flex-col justify-between mt-2">
                   {plan.Efatura && (
                     <p className={`text-sm`}>
-                      Acesse o App <Link href="/">Meu TIM</Link>, escolha um dos beneficios abaixo e troque todo mês (sem custo adicional ao plano)!
+                      Acesse o App <Link href="/" className="font-bold text-[blue]">Meu TIM</Link>, escolha um dos beneficios abaixo e troque todo mês (sem custo adicional ao plano)!
                     </p>
                   )}
                   <div
