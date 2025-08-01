@@ -184,7 +184,7 @@ function IzaAnuncio() {
                             </div>
                             <div className="flex  gap-2 border-b-[2px] border-[#07cdf0] ">
                                 <div className="w-3/7 border-t-[2px] border-[#07cdf0] h-[2px] mt-2 flex text-center pt-2">
-                                    <p className="text-white text-[.75em] font-bold">5GB EXCLUSIVOS PARA REDES SOCIAIS</p>
+                                    <p className="text-white text-[.5em] font-bold">5GB EXCLUSIVOS PARA REDES SOCIAIS</p>
                                 </div>
                                 
                                 {/* <div className="w-3/7 border-t-[2px] border-[#07cdf0] h-[2px] mt-2 pb-20 flex items-start text-center">
