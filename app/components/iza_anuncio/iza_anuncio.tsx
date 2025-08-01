@@ -195,24 +195,24 @@ function IzaAnuncio() {
                                 <MdAddCircleOutline className="text-[#07cdf0] text-lg" />
                                 <div className="w-3/7 border-t-[2px] border-[#07cdf0]  mt-2  flex items-start text-center flex-col">
                                     <div className="flex pt-2 pb-4 gap-1  w-full">
-                                        <div className="flex items-center justify-around w-full">
+                                        <div className="flex items-center justify-around w-full gap-1">
                                             <Image 
                                                 src="/img/twitter.png"
                                                 alt=""
-                                                width={40}
-                                                height={40} 
+                                                width={35}
+                                                height={35} 
                                             />
                                             <Image 
                                                 src="/img/facebook.svg"
                                                 alt=""
-                                                width={40}
-                                                height={40}
+                                                width={35}
+                                                height={35}
                                             />
                                             <Image 
                                                 src="/img/instagram.svg"
                                                 alt=""
-                                                width={40}
-                                                height={40}
+                                                width={35}
+                                                height={35}
                                             />
                                         </div>
                                     </div>
