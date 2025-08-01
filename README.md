@@ -17,7 +17,7 @@ Este projeto é uma réplica da seção de planos da página [TIM Controle](http
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/tim_page.git
+git clone git@github.com:victormaia21/tim_page.git
 cd tim_page
 ```
 
