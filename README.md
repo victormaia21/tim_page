@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TIM Controle Page Clone
 
-## Getting Started
+Este projeto é uma réplica da seção de planos da página [TIM Controle](https://www.meuplanotim.com.br/timcontrole?gad_campaignid=22565050037), desenvolvida utilizando o framework **Next.js**. A interface foi construída com os componentes do **Material UI (MUI)**, combinados com utilitários do **Tailwind CSS**, visando uma interface moderna, responsiva e fiel ao original.
 
-First, run the development server:
+## 🚀 Tecnologias utilizadas
+
+- **Next.js 15.3.5** – Framework React com suporte a SSR e SSG
+- **React 19**
+- **Material UI (MUI)**
+- **Tailwind CSS 4**
+- **TypeScript**
+- **React Icons**
+- **Emotion (styled e react)** – Para estilização com MUI
+
+## 📦 Instalação
+
+1. Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/seu-usuario/tim_page.git
+cd tim_page
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências com o npm:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Scripts disponíveis
 
-## Learn More
+- `npm run dev` – Inicia o servidor de desenvolvimento em `http://localhost:3000`
+- `npm run build` – Gera o projeto para produção
+- `npm run start` – Inicia o servidor com a build de produção
+- `npm run lint` – Executa o linter do Next.js
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Estrutura básica do projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+tim_page/
+├── components/         # Componentes reutilizáveis
+├── pages/              # Páginas da aplicação (Next.js)
+├── public/             # Arquivos públicos (imagens, etc.)
+├── styles/             # Estilos globais (se aplicável)
+├── tailwind.config.js  # Configurações do Tailwind CSS
+├── tsconfig.json       # Configurações do TypeScript
+└── README.md
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Observações
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Este projeto é apenas para fins educacionais e não possui nenhuma afiliação com a TIM.
+- A página desenvolvida replica apenas a seção visual de **planos TIM Controle**, sem funcionalidades de backend.
